@@ -1,0 +1,88 @@
+* {
+	box-sizing: border-box;
+	font-family: "Helvetica", sans-serif;
+}
+
+.row {
+	width: 100%;
+	position: relative;
+	margin: 5px;
+}
+
+.box {
+	position: relative;
+	padding: 10px;
+	margin: 5px;
+	border: solid black 1px;
+	background: grey;
+}
+
+@media (min-width: 992px) {
+	.col-lg-3{
+		float: left;
+		width: 33.3%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-2{
+		float: left;
+		width: 50%;
+	}
+	.col-md-1{
+		float: left;
+		width: 100%;
+	}
+}
+
+@media (max-width: 767px) {
+	.col-sm-1{
+		float: left;
+		width: 100%;
+	}
+}
+
+#RegionTitle1 {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	padding: 2px 20px 2px 20px;
+	border: solid black 1px;
+	background: pink;
+	margin: 0;
+}
+
+#RegionTitle2 {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	padding: 2px 20px 2px 20px;
+	border: solid black 1px;
+	background: red;
+	color: white;
+	margin: 0;
+}
+
+#RegionTitle3 {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	padding: 2px 20px 2px 20px;
+	border: solid black 1px;
+	background: yellow;
+	margin: 0;
+}
+
+p {
+	font-size: 1em;
+}
+
+h3 {
+	font-size: 1.25em
+}
+
+h1 {
+	font-size: 1.75em;
+	text-align: center;
+	margin: 40px;
+}
